@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/book/book",
+    "pages/book/detail/detail",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Books",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "buttom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home_1.png",
+        "selectedIconPath": "images/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "text": "图书",
+        "iconPath": "images/book.png",
+        "selectedIconPath": "images/book_1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my_1.png"
+      }
+    ]
+  }
+}

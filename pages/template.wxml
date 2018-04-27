@@ -1,0 +1,20 @@
+<!--pages/template.wxml-->
+<!--
+  index: int
+  imgage: string
+  title: string
+  author: string
+-->
+<template name="book_list">
+  <view class='list-item' id="{{id}}">
+      <navigator url="/pages/book/detail/detail?id={{id}}">
+      <view class='item-content'>
+        <image src='{{image}}'/>
+        <view class='item-info'>
+          <text>{{title}}</text>
+          <text>{{author}}</text>
+        </view>
+      </view>
+      </navigator>
+    </view>
+</template>

@@ -1,0 +1,25 @@
+/* pages/template.wxss */
+.list-item{
+  float: left;
+  width: 46%;
+  margin: 0 2%;
+  margin-bottom: 20rpx;
+}
+.item-conten{
+  display: flex;
+  flex-direction: row;
+  margin: 0 10rpx;
+}
+.item-content image{
+  width: 100%;
+  max-width: 480rpx;
+  max-height: 480rpx;
+}
+.item-info{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.item-info text{
+  font-size: 12px;
+}

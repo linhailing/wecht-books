@@ -1,0 +1,10 @@
+<import src="../template.wxml"/>
+<view class="warp">
+  <scroll-view scroll-y style="height: 100%;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+    <view class='list'>
+      <block wx:for="{{lists}}" wx:key="index">
+        <template is="book_list" data="{{...item}}" />
+      </block>
+    </view>
+  </scroll-view>
+  </view>
